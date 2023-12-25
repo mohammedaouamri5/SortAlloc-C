@@ -1,0 +1,22 @@
+# Executables
+*.exe
+*.out
+
+# Build directory
+build/
+*.d
+
+# Build directories
+build/
+bin/
+
+# Dependency files
+*.d
+
+# IDE files
+.vscode/
+
+# My Files
+*.TODO
+*.TODO
+test*
