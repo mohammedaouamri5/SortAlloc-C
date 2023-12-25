@@ -2,6 +2,7 @@
 #define CSV_H
 
 #include <stdlib.h>
+#include <stdio.h>
 #include "str.h" // WTF 
 
 // ? =============================================================================
