@@ -17,7 +17,7 @@ This C language project focuses on analyzing and comparing various file allocati
 2. Compile the program:
 
     ```bash
-    gcc main.c -o app
+    gcc main.c lib/str.c lib/csv.c -o app
     ```
 
 3. Run the program:

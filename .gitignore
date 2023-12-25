@@ -1,10 +1,7 @@
 # Executables
 *.exe
 *.out
-
-# Build directory
-build/
-*.d
+*.o
 
 # Build directories
 build/
