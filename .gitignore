@@ -17,3 +17,6 @@ bin/
 *.TODO
 *.TODO
 test*
+
+*Makefile*
+*.make 
