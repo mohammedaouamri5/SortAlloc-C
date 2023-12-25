@@ -1,19 +1,14 @@
-workspace "MyProject"
-    configurations { "Debug", "Release" }
-
-project "MyProject"
+workspace "TP"
+    configurations { "Debug", "Release"  }
+    -- you need a dist configurations if you did a GUI 
+project "TP"
     kind "ConsoleApp"
     language "C"
     targetdir "bin/%{cfg.buildcfg}"
 
-    files {
-        "main.c",
-        "lib/*.c",
-        "lib/*.h"
-    }
+    files {  "src/**.c" , "src/**.h",  }
 
-    includedirs { "lib" }
-
+ 
     filter "configurations:Debug"
         defines { "DEBUG" }
         symbols "On"
@@ -21,3 +16,4 @@ project "MyProject"
     filter "configurations:Release"
         defines { "NDEBUG" }
         optimize "On"
+ 

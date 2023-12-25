@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 // #include "lib/str.h" // my srting library 
-#include "lib/csv.h" // my csv library
+#include "csv.h" // my csv library
 
 
 // ? Macros ========================================================================================
@@ -16,18 +16,7 @@
 
 // ? getFieldsNum : get the number of fields in a CSV file
 
-int getFieldsNum(FILE *fp){
-    int fieldsNum = 0;
-    char *line = (char *)malloc(MAX_LINE_SIZE * sizeof(char));
-    char *token = strtok(line, ",");
-    while (token != NULL) {
-        fieldsNum++;
-        token = strtok(NULL, ",");
-    }
-    rewind(fp); // return the pointer to the begining of the file
-    return fieldsNum;
-}
-
+// fix stupid CODE   
 
 // ? Main ==========================================================================================
 int main() {
