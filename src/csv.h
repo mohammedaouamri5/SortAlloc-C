@@ -2,7 +2,7 @@
 #define CSV_H
 
 #include <stdlib.h>
-#include "str.c"
+#include "str.h" // WTF 
 
 // ? =============================================================================
 // ? CSV data types

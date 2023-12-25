@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 // #include "lib/str.h" // my srting library 
-#include "lib/csv.h" // my csv library
+#include "csv.h" // my csv library
 
 
 // ? Macros ========================================================================================
