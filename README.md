@@ -5,7 +5,7 @@ This C language project focuses on analyzing and comparing various file allocati
 ## Getting Started
 ### Prerequisites
 
-- Ensure you have a C compiler installed (e.g., GCC).
+- Ensure you have ( GCC && make ) || MSVC.
 ### Installation
 
 1. Clone the repository:
@@ -13,17 +13,45 @@ This C language project focuses on analyzing and comparing various file allocati
     ```bash
      git clone https://github.com/B-AJ-Amar/SortAlloc-C.git
     ```
+2. build:
+*  
+  * *gcc && make*
 
+    ```cmd
+    $> cd Scripts
+    ```
+  * ***windows***\
+      and in the `cmd` run 
+      ```cmd
+      $\Scripts> Setup-Windows.bat 
+      ```
+  * ***linux***\
+     and in the `bash` run 
+     ```bash
+     $\Scripts> bash Setup-Linux.sh 
+     ```
+* * *MSCV && vs* 
+     ```bash
+     $> Vendor\Binaries\Premake\Windows\premake5.exe vs2022
+     ```
+     and you will get a vs solution 
+
+ 
 2. Compile the program:
 
     ```bash
-    gcc main.c lib/str.c lib/csv.c -o app
+    $> make 
     ```
+    run
+    ```bash
+    $> make help  
+    ```
+    to get more info about the build system
 
 3. Run the program:
 
     ```bash
-    ./app
+    $> bin/connfig/TP
     ```
 ## Usage
 - Follow the instructions displayed on the console or terminal interface.
